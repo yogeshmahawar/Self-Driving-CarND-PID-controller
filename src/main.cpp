@@ -60,7 +60,7 @@ int main()
           */
 
           pid.UpdateError(cte);
-          steer_value -= pid.TotalError();
+          steer_value = pid.TotalError();
 
 
           // DEBUG
